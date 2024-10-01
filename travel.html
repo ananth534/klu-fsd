@@ -1,0 +1,89 @@
+<html></html>
+<style>
+body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+}
+
+#map {
+   position: relative;
+   height: 100vh;
+   width: 100%;
+}
+
+.destination {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 5em;
+   color: #333;
+   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.pin {
+   position: absolute;
+   height: 1em;
+   width: 1em;
+   background-color: red;
+}
+
+#europe {
+   top: 10%;
+   left: 10%;
+}
+
+#asia {
+   top: 20%;
+   left: 20%;
+}
+
+#africa {
+   top: 30%;
+   left: 30%;
+}
+
+#south-america {
+   top: 40%;
+   left: 40%;
+}
+
+#north-america {
+   top: 50%;
+   left: 50%;
+}
+
+#australia {
+   top: 60%;
+   left: 60%;
+}
+
+#antarctica {
+   top: 70%;
+   left: 70%;
+}
+</style>
+<body>
+   <div id="map">
+       <div class="destination" id="europe">Europe</div>
+       <div class="destination" id="asia">Asia</div>
+       <div class="destination" id="africa">Africa</div>
+       <div class="destination" id="south-america">South America - Cape Town</div>
+       <div class="destination" id="north-america">Egypt - Cairo</div>
+       <div class="destination" id="australia">Kenya - Nairobi</div>
+       <div class="destination" id="antarctica">Antarctica</div>
+       <div class="pin" id="europe-pin"></div>
+       <div class="pin" id="asia-pin"></div>
+       <div class="pin" id="africa-pin"></div>
+       <div class="pin" id="south-america-pin"></div>
+       <div class="pin" id="north-america-pin"></div>
+       <div class="pin" id="australia-pin"></div>
+       <div class="pin" id="antarctica-pin"></div>
+   </div>
+</body>
+</html>

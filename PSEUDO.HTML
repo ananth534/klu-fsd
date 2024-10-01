@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PSEUDO CLASSES AND PSEUDO ELEMENTS</title>
+    <style>
+        input [type="number"]:out-of-range{
+            border :2px solid red;
+        }
+        input [type="number"]:in-range{
+            border :2px solid green;
+        }
+        input [type="email"]:invalid{
+            color:blue;
+        }
+        p::first-line{
+            text-decoration: underline;
+        }
+        p::first-letter{
+            font-size: 20px;
+            color:red;
+        }
+        p::before{
+            content:"KLU";
+        }
+        p::after{
+            content:"END";
+        }
+        p::selection{
+            background-color:grey;
+            color:white;
+        }
+        li::marker{
+            color:red;
+        }
+        
+
+        </style>
+        </head>
+        <body> 
+        <input type="number" placeholder="enter age" min=0 max=18 style="width:500px";>
+        <br><br>
+        <input type="number" placeholder="enter email address">
+        <br><br>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos maxime dignissimos numquam suscipit voluptates qui quibusdam asperiores quia repellat deserunt officia, ad eius inventore animi delectus sint deleniti consectetur nemo. Nostrum qui repudiandae cum provident porro animi doloribus est magni expedita similique cumque ratione modi eos dignissimos natus eveniet id atque quam quibusdam asperiores iste, pariatur voluptatem. Possimus, rem deserunt! Ex a sed in, aut perspiciatis veritatis harum sunt ratione cupiditate numquam voluptatem, tenetur culpa commodi illum sequi. Exercitationem adipisci perspiciatis voluptatum natus, eius nesciunt a officiis iusto numquam dolor non, porro ea molestias dignissimos harum eum. Expedita, sapiente error!
+    </p>
+    <ul>
+       <li>KLU_ECE</li> 
+       <li>ananth</li>
+       <li>fsd</li>  
+       <li>devops</li> 
+       <li>CI/CD pipeline</li> 
+
+    </ul>
+        </body>
+        </html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Frames Example</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            padding: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Map Embed -->
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0197959775224!2d-122.41941508468034!3d37.77492927975937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c9ecba979%3A0xa42113e9c02916b4!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1620061982564!5m2!1sen!2sus" 
+        allowfullscreen="" loading="lazy"></iframe>
+
+    <!-- YouTube Video Embed -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BddVKrL_XMw?si=BSMPuBlw3NjcsjVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- Wikipedia Embed (using a link to a Wikipedia page) -->
+    <iframe 
+        src="https://en.wikipedia.org/wiki/HTML" 
+        title="Wikipedia Page"></iframe>
+
+    <!-- Another HTML Page Embed -->
+    <iframe 
+        src="demo.html" 
+        title="Another HTML page"></iframe>
+
+    <!-- PDF File Embed -->
+    <iframe 
+        src="Arrays Manipulations.pdf" 
+        title="PDF File"></iframe>
+
+</body>
+</html>
